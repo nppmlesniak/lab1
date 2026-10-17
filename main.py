@@ -50,7 +50,7 @@ def add_person(results):
     name = read_name()
     height = read_positive_float("Podaj wzrost w cm: ",80,250)
 
-    weight = read_positive_float("Podaj mase ciala w kg: ",20,300)
+    weight = read_positive_float("Podaj mase ciała w kg: ",20,300)
 
     bmi = calculate_bmi(weight, height)
     category = classify_bmi(bmi)
