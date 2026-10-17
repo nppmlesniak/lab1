@@ -36,7 +36,6 @@ def read_positive_float(prompt, min_value, max_value):
         except ValueError:
             print("Błąd: podaj poprawną liczbę.")
 
-
 def read_name():
     while True:
         name = input("Podaj imię: ").strip()
@@ -82,7 +81,6 @@ def add_person(results):
     print(f"BMI: {bmi:.2f}")
     print(f"Kategoria: {category}")
 
-
 def show_history(results):
     print("\n--- Historia wyników ---")
 
@@ -98,7 +96,6 @@ def show_history(results):
             f"BMI: {person['bmi']:.2f} | "
             f"{person['category']}"
         )
-
 
 def show_summary(results):
     print("\n--- Podsumowanie ---")
@@ -134,14 +131,12 @@ def show_summary(results):
     print(f"Nadwaga: {categories['nadwaga']}")
     print(f"Otyłość: {categories['otyłość']}")
 
-
 def show_menu():
     print("\n=== KALKULATOR BMI ===")
     print("1. Dodaj wynik")
     print("2. Wyświetl historię")
     print("3. Pokaż podsumowanie")
     print("0. Zakończ")
-
 
 def main():
     results = []
