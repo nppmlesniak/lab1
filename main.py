@@ -74,7 +74,7 @@ def show_history(results):
     if not results:
         print("Historia jest pusta.")
         return
-
+    print("\n--- Historia ---")
     for number, person in enumerate(results, start=1):
         print(
             f"{number}. {person['name']} | "
