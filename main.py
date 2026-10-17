@@ -7,11 +7,11 @@ def classify_bmi(bmi):
     if bmi < 18.5:
         return "niedowaga"
     elif bmi < 25:
-        return "waga prawidłowa"
+        return "waga prawidlowa"
     elif bmi < 30:
         return "nadwaga"
     else:
-        return "otyłość"
+        return "otylosc"
 
 def read_positive_float(prompt, min_value, max_value):
     while True:
